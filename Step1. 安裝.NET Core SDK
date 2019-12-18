@@ -1,0 +1,19 @@
+1.安裝 .NET Core SDK，官網下載位置 https://dotnet.microsoft.com/download
+2.啟動「命令提示字元」
+   A. 輸入dotnet
+   B. 輸入mkdir MyWebsite  # 建立專案資料夾
+   C. 輸入cd MyWebsite     # 進入專案資料夾
+   D. 輸入dotnet new web   # 建立 ASP.NET Core 專案
+   E. 輸入dotnet run       # 啟動網站(.NET Core CLI 預設會起一個http://localhost:5000/的站台)
+3.新的專案檔案如下
+    obj/                            # 專案暫存目錄
+    Properties/                     # 開發用的環境設定
+    MyWebsite.csproj                # 專案檔
+    appsettings.Development.json    # 執行程式組態設定(開發階段)
+    appsettings.json                # 執行程式組態設定(預設)
+    Program.cs                      # 程式進入檔
+    Startup.cs                      # 啟動網站設定
+4.開發工具
+   A. Windows 作業系統，最推薦的當然還是 Visual Studio IDE，下載位置 https://visualstudio.microsoft.com/
+   B. 跨平台的話強烈推薦 JetBrains 公司出的 Rider，下載位置 https://www.jetbrains.com/rider/
+   C. 最輕量化跨平台推薦 Visual Studio Code (簡稱 VS Code)，下載位置 https://code.visualstudio.com/
